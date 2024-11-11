@@ -1,16 +1,44 @@
-.div_f > div:hover {
-  background-color: brown;
+.main-div {
+  margin: auto;
+  width: 65%;
+  margin-top: 5%;
+
+  background-image: url("./src/201532.jpg");
+  box-shadow: 5px 5px 5px gray;
+  text-align: center;
 }
-.div_f > div {
-  background: linear-gradient(90deg, green, black);
+.main-div-child {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.odin-logo {
+  width: 15%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.logo-div {
+  background-color: rgb(19, 25, 31);
+  color: White;
+  width: 80%;
+  padding: 20px;
+}
+
+body {
+  font-family: "Roboto";
+}
+.form-div-main {
+  color: white;
   width: 100%;
-  height: 100%;
+  background-color: rgb(33, 37, 41);
+  padding-top: 15px;
 }
-.div_f > div > img {
-  max-width: 50%;
-  height: 100%;
-  align-items: center;
+.form-div-child {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
 }
-.div_f {
-  align-items: center;
+.create-account-div {
+  background-color: rgb(54, 59, 65);
+  margin-top: 20px;
+  padding: 20px;
 }
